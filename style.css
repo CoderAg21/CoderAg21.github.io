@@ -322,12 +322,13 @@ footer{
         position: absolute;
         width: 66%;
         left: 17%;
-        height: 101%;
-        top: 105%;
+        height: 117%;
+        border-radius: 10px;
+        top: 104vh;
         margin-top: 13px;
     }
     .projectHeading {
-        margin-top: 121vh;
+        margin-top: 145vh;
     }
     
     .centerBlock {
@@ -356,11 +357,14 @@ footer{
         .content1 h2{
             font-size: 1.2rem;
         }
+        .serviceNames{
+            font-size: .9rem;
+        }
     }
     
     @media screen and (max-width:468px){
         .rightIcons{
-            left: 1%;
+            left: 5%;
         }
         .rightBlock{
             width: 7vw;
@@ -387,9 +391,7 @@ footer{
         left: 20%;
         /* width: 100vw; */
     }
-    .serviceNames{
-        font-size: .9rem;
-    }
+   
     .updateImgProp{
         top: 4%;
     }
