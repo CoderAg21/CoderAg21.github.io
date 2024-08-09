@@ -461,7 +461,7 @@ footer {
         height: 705px;
     }
 }
-@media screen and (min-height:550px){
+@media screen and (min-height:550px) and (max-width:712px){
     .leftBlock{
         height: 600px;
     }
