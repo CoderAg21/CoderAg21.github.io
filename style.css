@@ -415,6 +415,7 @@ footer {
     .updateImgProp {
         top: 4%;
         height: 100px;
+        right:6px;
         width: 100px;
     }
 }
