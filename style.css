@@ -173,7 +173,7 @@ body {
 }
 
 .updateImgProp {
-    right: 5px;
+    right: 0;
     background: url("https://imgv3.fotor.com/images/share/Free-blue-gradient-pattern-background-from-Fotor.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -414,8 +414,8 @@ footer {
 
     .updateImgProp {
         top: 4%;
+        right: 6px;
         height: 100px;
-        right:6px;
         width: 100px;
     }
 }
@@ -459,7 +459,7 @@ footer {
     .rightBlock,
     .leftBlock,
     .centerBlock {
-        height: 705px;
+        height: 700px;
     }
 }
 @media screen and (min-height:550px) and (max-width:712px){
