@@ -10,24 +10,24 @@
 
 ::-webkit-scrollbar {
     width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(11, 150, 178); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(11, 150, 178);
     border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #a26666; 
-  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #a26666;
+}
 
 body {
     display: flex;
@@ -71,8 +71,8 @@ body {
 
     height: 545px;
     width: 4vw;
-    background-color:rgb(240 240 240);
-    border-top-right-radius:10px ;
+    background-color: rgb(240 240 240);
+    border-top-right-radius: 10px;
     /* border-bottom-right-radius:10px ; */
 }
 
@@ -171,7 +171,8 @@ body {
     border-radius: 10px;
     /* margin-top: 72px; */
 }
-.updateImgProp{
+
+.updateImgProp {
     right: 0;
     background: url("https://imgv3.fotor.com/images/share/Free-blue-gradient-pattern-background-from-Fotor.jpg");
     background-size: contain;
@@ -179,24 +180,29 @@ body {
     height: 100px;
     width: 100px;
 }
-.leftIntro{
+
+.leftIntro {
     text-align: center;
 }
-.skills{
+
+.skills {
     width: 80%;
-   
+
 }
-.txtColor{
+
+.txtColor {
     color: #6f7476;
     /* font-size: .6rem; */
     position: relative;
     top: 5px;
 }
-.ranger{
+
+.ranger {
     width: 90%;
-    
+
 }
-.percent{
+
+.percent {
     position: relative;
     float: right;
     right: 11%;
@@ -204,7 +210,8 @@ body {
     color: black;
     /* font-size: 0.5rem; */
 }
-#cv{
+
+#cv {
     height: fit-content;
     width: fit-content;
     padding: 8px;
@@ -214,7 +221,8 @@ body {
     font-family: serif;
     background-color: var(--bgcolor);
 }
-.icons{
+
+.icons {
     margin-top: 10px;
     height: 20px;
     width: 20px;
@@ -222,63 +230,76 @@ body {
     /* text-align: center; */
     /* border-radius: 50%; */
 }
-.serviceImg{
+
+.serviceImg {
     /* position: relative; */
     margin-top: 10px;
     /* left: 45%; */
     height: 45px;
     width: 45px;
 }
-.cardImg{
+
+.cardImg {
     height: 42%;
     width: 50%;
     border-radius: 16px;
 }
-.topic{
+
+.topic {
     margin-top: 15px;
     margin-bottom: 11px;
     font-family: "Gupter", serif;
-  font-weight: 700;
-  font-style: normal;
+    font-weight: 700;
+    font-style: normal;
     text-decoration: underline;
 }
-.visit{
+
+.visit {
     padding: 5px;
-  background: var(--bgcolor);
-  border: navajowhite;
-  border-radius: 5px;
-  color: whitesmoke;
-  font-family: initial;
+    background: var(--bgcolor);
+    border: navajowhite;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: initial;
 }
-.visit:hover,#cv:hover,#about:hover,.icons:hover{
+
+.visit:hover,
+#cv:hover,
+#about:hover,
+.icons:hover {
     background-color: rgb(255, 175, 70);
     color: black;
     cursor: pointer;
 }
-.cards:hover{
+
+.cards:hover {
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
-.aboutProject{
-        color: rgb(49, 49, 49);
-        font-size: 0.8rem;
-        margin-top: 10px;
-        font-family: "Gupter", serif;
-  font-weight: 500;
-  font-style: normal;
-        margin-bottom: 10px;
-        text-wrap: wrap;
+
+.aboutProject {
+    color: rgb(49, 49, 49);
+    font-size: 0.8rem;
+    margin-top: 10px;
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+    text-wrap: wrap;
 }
-.rightIcons{
+
+.rightIcons {
     position: relative;
     left: 25%;
     margin-top: 51px;
-    border-radius:40%;
+    border-radius: 40%;
     padding: 3px;
 }
-.rightIcons:hover{
+
+.rightIcons:hover {
     background-color: rgb(255, 126, 143);
 }
-.rightBlock i{
+
+.rightBlock i {
     background-color: black;
     color: white;
     font-size: .7rem;
@@ -286,38 +307,46 @@ body {
     padding: 3px;
     display: none;
 }
-footer{
+
+footer {
     width: 100%;
     background-color: black;
     padding: 10px;
     color: white;
     text-align: center;
 }
+
 @media screen and (max-width:845px) and (min-width:712px) {
-    .myImg{
+    .myImg {
         right: 5px;
 
     }
-    .content1{
+
+    .content1 {
         padding-left: 5px;
         width: 67%;
     }
-    .rightIcons{
+
+    .rightIcons {
         left: 5%;
     }
 }
-.intro{
+
+.intro {
     font-size: 2rem;
 }
-@media screen and (max-width:712px){
-    .cardImg{
+
+@media screen and (max-width:712px) {
+    .cardImg {
         height: 120px;
         width: 170px;
     }
-    .rightIcons{
+
+    .rightIcons {
         left: 3%;
     }
-    .leftBlock{
+
+    .leftBlock {
 
         position: absolute;
         width: 66%;
@@ -327,91 +356,117 @@ footer{
         top: 117vh;
         margin-top: 13px;
     }
+
     .projectHeading {
         margin-top: 141vh;
     }
-    
+
     .centerBlock {
         height: 97vh;
         width: 94vw;
     }
-    .content1{
+
+    .content1 {
         padding-left: 10px;
 
     }
-    .myImg{
+
+    .myImg {
         right: 6px;
     }
-    .intro{
+
+    .intro {
         font-size: 1.4rem;
     }
-    .content2{
+
+    .content2 {
         font-size: .6rem;
     }
 }
 
 
-    @media screen and (max-width:402px){
-        
+@media screen and (max-width:402px) {
 
-        .content1 h2{
-            font-size: 1.2rem;
-        }
-        .serviceNames{
-            font-size: .9rem;
-        }
+
+    .content1 h2 {
+        font-size: 1.2rem;
     }
-    
-    @media screen and (max-width:468px){
-        .rightIcons{
-            left: 5%;
-        }
-        .rightBlock{
-            width: 7vw;
-        }
-    .myImg{
+
+    .serviceNames {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .rightIcons {
+        left: 5%;
+    }
+
+    .rightBlock {
+        width: 7vw;
+    }
+
+    .myImg {
         top: 43px;
         height: 121px;
         width: 121px;
     }
-    .updateImgProp{
+
+    .updateImgProp {
         top: 4%;
         height: 100px;
         width: 100px;
     }
 }
-@media screen and (max-width:359px){
-    .myImg{
+
+@media screen and (max-width:359px) {
+    .myImg {
         top: -200px;
 
     }
-   
-    .updateImgProp{
+
+    .updateImgProp {
         top: 4%;
     }
-    .services{
+
+    .services {
         width: 60%;
         position: relative;
         left: 21%;
     }
 }
-@media screen and (max-width:380px){
-    .cardImg{
+
+@media screen and (max-width:380px) {
+    .cardImg {
         height: 80px;
         width: 136px;
     }
 }
 
-@media screen and (min-height:660px){
-    .leftBlock{
+@media screen and (min-height:660px) {
+    .leftBlock {
         top: 96vh;
     }
-    .services{
+
+    .services {
         margin-top: 100px;
     }
 }
-@media screen and (min-height:800px){
-    .rightBlock,.leftBlock,.centerBlock{
+
+@media screen and (min-height:800px) {
+
+    .rightBlock,
+    .leftBlock,
+    .centerBlock {
         height: 705px;
+    }
+}
+@media screen and (min-height:550px){
+    .leftBlock{
+        height: 600px;
+    }
+
+    .projectHeading {
+        margin-top: 100vh;
     }
 }
