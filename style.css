@@ -314,6 +314,9 @@ footer{
         height: 120px;
         width: 170px;
     }
+       .serviceNames{
+            font-size: .8rem;
+        }
     .rightIcons{
         left: 3%;
     }
@@ -357,9 +360,7 @@ footer{
         .content1 h2{
             font-size: 1.2rem;
         }
-        .serviceNames{
-            font-size: .9rem;
-        }
+     
     }
     
     @media screen and (max-width:468px){
