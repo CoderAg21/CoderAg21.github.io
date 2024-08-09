@@ -1,0 +1,402 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --bgcolor: rgb(205, 50, 71);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(11, 150, 178); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a26666; 
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.completeportfolio {
+    border-radius: 10px;
+    width: 98vw;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.threeBlocks {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.centerBlock {
+    height: 97vh;
+    width: 70vw;
+}
+
+.leftBlock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 97vh;
+    width: 21vw;
+    background-color: #f0ecec;
+    border-top-left-radius: 10px;
+    /* border-bottom-left-radius: 10px; */
+}
+
+.rightBlock {
+
+    height: 97vh;
+    width: 4vw;
+    background-color:rgb(240 240 240);
+    border-top-right-radius:10px ;
+    /* border-bottom-right-radius:10px ; */
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.projectHeading {
+    margin-top: 60px;
+    display: block;
+    text-align: center;
+}
+
+.cards {
+    width: 46%;
+    margin-bottom: 10px;
+    height: 346px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.backImg {
+    background-image: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 55%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myImg {
+    height: 162px;
+    width: 162px;
+    float: right;
+    position: relative;
+    transform: rotate(2deg);
+    background-repeat: no-repeat;
+    right: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxiBGZV7gfEuBrPNBn32Y6Ha63dOSzHQkZDfxtHe9r461241vFX6i3UJqNPcPww39R4Y&usqp=CAU");
+    top: 20px;
+    background-size: contain;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+
+.content1 {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 42px;
+    width: 63%;
+}
+
+.content2 {
+    margin-top: 4px;
+    font-size: .8rem;
+}
+
+#about {
+    margin-top: 10px;
+    padding: 7px;
+    background-color: var(--bgcolor);
+    border: none;
+    color: wheat;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.services {
+    width: 51%;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    margin-left: 23%;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.serviceContent {
+    font-size: .8rem;
+    margin-top: 10px;
+}
+
+.servicecards {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 22%;
+    background-color: white;
+    border-radius: 10px;
+    /* margin-top: 72px; */
+}
+.updateImgProp{
+    right: 0;
+    background: url("https://imgv3.fotor.com/images/share/Free-blue-gradient-pattern-background-from-Fotor.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+.leftIntro{
+    text-align: center;
+}
+.skills{
+    width: 80%;
+   
+}
+.txtColor{
+    color: #6f7476;
+    /* font-size: .6rem; */
+    position: relative;
+    top: 5px;
+}
+.ranger{
+    width: 90%;
+    
+}
+.percent{
+    position: relative;
+    float: right;
+    right: 11%;
+    font-weight: bolder;
+    color: black;
+    /* font-size: 0.5rem; */
+}
+#cv{
+    height: fit-content;
+    width: fit-content;
+    padding: 8px;
+    border: navajowhite;
+    border-radius: 6px;
+    color: white;
+    font-family: serif;
+    background-color: var(--bgcolor);
+}
+.icons{
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    /* text-align: center; */
+    /* border-radius: 50%; */
+}
+.serviceImg{
+    /* position: relative; */
+    margin-top: 10px;
+    /* left: 45%; */
+    height: 45px;
+    width: 45px;
+}
+.cardImg{
+    height: 42%;
+    width: 50%;
+    border-radius: 16px;
+}
+.topic{
+    margin-top: 15px;
+    margin-bottom: 11px;
+    font-family: "Gupter", serif;
+  font-weight: 700;
+  font-style: normal;
+    text-decoration: underline;
+}
+.visit{
+    padding: 5px;
+  background: var(--bgcolor);
+  border: navajowhite;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-family: initial;
+}
+.visit:hover,#cv:hover,#about:hover,.icons:hover{
+    background-color: rgb(255, 175, 70);
+    color: black;
+    cursor: pointer;
+}
+.cards:hover{
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.aboutProject{
+        color: rgb(49, 49, 49);
+        font-size: 0.8rem;
+        margin-top: 10px;
+        font-family: "Gupter", serif;
+  font-weight: 500;
+  font-style: normal;
+        margin-bottom: 10px;
+        text-wrap: wrap;
+}
+.rightIcons{
+    position: relative;
+    left: 25%;
+    margin-top: 51px;
+    border-radius:40%;
+    padding: 3px;
+}
+.rightIcons:hover{
+    background-color: rgb(255, 126, 143);
+}
+.rightBlock i{
+    background-color: black;
+    color: white;
+    font-size: .7rem;
+    border-radius: 5px;
+    padding: 3px;
+    display: none;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width:845px) and (min-width:712px) {
+    .myImg{
+        right: 5px;
+
+    }
+    .content1{
+        padding-left: 5px;
+        width: 67%;
+    }
+    .rightIcons{
+        left: 5%;
+    }
+}
+.intro{
+    font-size: 2rem;
+}
+@media screen and (max-width:712px){
+    .cardImg{
+        height: 120px;
+        width: 170px;
+    }
+    .rightIcons{
+        left: 3%;
+    }
+    .leftBlock{
+
+        position: absolute;
+        width: 66%;
+        left: 17%;
+        height: 101%;
+        top: 105%;
+        margin-top: 13px;
+    }
+    .projectHeading {
+        margin-top: 121vh;
+    }
+    
+    .centerBlock {
+        height: 97vh;
+        width: 94vw;
+    }
+    .content1{
+        padding-left: 10px;
+
+    }
+    .myImg{
+        right: 6px;
+    }
+    .intro{
+        font-size: 1.4rem;
+    }
+    .content2{
+        font-size: .6rem;
+    }
+}
+
+
+    @media screen and (max-width:402px){
+        
+
+        .content1 h2{
+            font-size: 1.2rem;
+        }
+    }
+    
+    @media screen and (max-width:468px){
+        .rightIcons{
+            left: 1%;
+        }
+        .rightBlock{
+            width: 7vw;
+        }
+    .myImg{
+        top: 43px;
+        height: 121px;
+        width: 121px;
+    }
+    .updateImgProp{
+        top: 4%;
+        height: 100px;
+        width: 100px;
+    }
+}
+@media screen and (max-width:359px){
+    .myImg{
+        top: -200px;
+
+    }
+    .services{
+        position: relative;
+        margin-left: 0;
+        left: 20%;
+        /* width: 100vw; */
+    }
+    .serviceNames{
+        font-size: .9rem;
+    }
+    .updateImgProp{
+        top: 4%;
+    }
+}
+@media screen and (max-width:380px){
+    .cardImg{
+        height: 80px;
+        width: 136px;
+    }
+}
