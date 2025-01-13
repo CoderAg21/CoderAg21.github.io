@@ -1,0 +1,539 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --bgcolor: rgb(205, 50, 71);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(11, 150, 178);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #4800ff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    animation-name: mode;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    /* animation-direction: alternate; */
+    animation-fill-mode: forwards;
+    
+}
+@keyframes mode {
+    0%{
+        background-image: linear-gradient(120deg, #989898 0%, #6e6e6e 100%);
+
+    }
+    100%{
+        background-image: linear-gradient(120deg, #9a9a9a 0%, #000000ed 100%);
+
+    }
+    
+}
+
+.completeportfolio {
+    border-radius: 10px;
+    width: 98vw;
+    animation-name: mode2;
+    animation-iteration-count: 1;
+    /* background-image: linear-gradient(to top, #474747 0%, #0c0b0b 100%); */
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    /* animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); */
+}
+    /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
+    
+    @keyframes mode2 {
+        0%{
+            opacity: .5;
+            background-image: linear-gradient(to top, #474747 0%, #0c0b0b 100%);
+            
+        }
+        50%{
+            background-image: linear-gradient(to top, #474747 0%, #0c0b0b 100%);
+            
+        }
+        100%{
+            background-image: linear-gradient(to top, #474747 0%, #0c0b0b 100%);
+            opacity: 1;
+        }
+    }
+
+
+    
+.threeBlocks {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.centerBlock {
+    height: 97vh;
+    width: 70vw;
+}
+.leftBlock {
+    /*  */
+    color: white;
+    background-image: url("https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-12714.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 545px;
+    width: 21vw;
+    background-color: #f0ecec;
+    border-top-left-radius: 10px;
+    /* border-bottom-left-radius: 10px; */
+}
+
+.rightBlock {
+
+    background-image: url("https://i.pinimg.com/236x/35/37/bf/3537bf0df04dab09d302ffb1818bafdb.jpg");
+    height: 545px;
+    width: 4vw;
+    background-color: rgb(240 240 240);
+    background-size: cover;
+    color: wheat;
+    border-top-right-radius: 10px;
+    /* border-bottom-right-radius:10px ; */
+}
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.projectHeading {
+    color: wheat;
+    margin-top: 168px;
+    display: block;
+    text-align: center;
+}
+
+.cards {
+    width: 46%;
+    background-image: url("https://e0.pxfuel.com/wallpapers/1004/247/desktop-wallpaper-abstract-background-texture-textures-thumbnail.jpg");
+    margin-bottom: 10px;
+    height: 346px;
+    background-color: white;
+    background-size: cover;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.backImg {
+    background-image: url("https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg");
+    /* background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5410e386-b62b-41fe-ae26-75f8290c43c2/dga3jli-2dfb451d-6b33-49c3-b89e-1be9aad0a365.jpg/v1/fit/w_828,h_466,q_70,strp/abstract_4k_dark_mode_wave_wallpaper__by_ahilgalib47_dga3jli-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzUwMCIsInBhdGgiOiJcL2ZcLzU0MTBlMzg2LWI2MmItNDFmZS1hZTI2LTc1ZjgyOTBjNDNjMlwvZGdhM2psaS0yZGZiNDUxZC02YjMzLTQ5YzMtYjg5ZS0xYmU5YWFkMGEzNjUuanBnIiwid2lkdGgiOiI8PTEzMzM0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.waFru1hOmH_-eBQv_W14ssronZF3RC9-ktRszcdPGU4'); */
+    /* background-image: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+    height: 270px;
+    width: 100%;
+    /* background-size: contain; */
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myImg {
+    height: 162px;
+    width: 162px;
+    float: right;
+    position: relative;
+    transform: rotate(2deg);
+    background-repeat: no-repeat;
+    right: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxiBGZV7gfEuBrPNBn32Y6Ha63dOSzHQkZDfxtHe9r461241vFX6i3UJqNPcPww39R4Y&usqp=CAU");
+    top: 20px;
+    background-size: contain;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+
+.content1 {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 42px;
+    width: 63%;
+}
+
+.content2 {
+    margin-top: 4px;
+    font-size: .8rem;
+}
+
+#about {
+    margin-top: 10px;
+    padding: 7px;
+    background-color: var(--bgcolor);
+    border: none;
+    color: wheat;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.services {
+    /* width: 51%; */
+    color: rgb(246, 233, 209);
+    margin-top: 4%;
+    margin-bottom: 7%;
+    text-decoration: underline;
+    /* margin-left: 23%; */
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.serviceContent {
+    font-size: .8rem;
+    margin-top: 10px;
+}
+
+.servicecards {
+    background-image: url("https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149010949.jpg");
+    display: inline-block;
+    width: 49%;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 110px;
+    background-color: white;
+    border-radius: 10px;
+    /* margin-top: 72px; */
+}
+
+.updateImgProp {
+    right: 0;
+    background: url("https://imgv3.fotor.com/images/share/Free-blue-gradient-pattern-background-from-Fotor.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.leftIntro {
+    text-align: center;
+}
+
+.skills {
+    /*  */
+    width: 80%;
+    color: wheat;
+
+}
+
+.txtColor {
+    color: #ffffff;
+    /* font-size: .6rem; */
+    position: relative;
+    top: 5px;
+}
+
+.ranger {
+    width: 90%;
+
+}
+
+.percent {
+    position: relative;
+    float: right;
+    right: 11%;
+    font-weight: bolder;
+    color: black;
+    /* font-size: 0.5rem; */
+}
+
+#cv {
+    height: fit-content;
+    width: fit-content;
+    padding: 8px;
+    border: navajowhite;
+    border-radius: 6px;
+    color: white;
+    font-family: serif;
+    background-color: var(--bgcolor);
+}
+
+.icons {
+    margin-top: 10px;
+    height: 20px;
+    background-color: rgb(255, 250, 240);
+    width: 20px;
+    cursor: pointer;
+    /* text-align: center; */
+    /* border-radius: 50%; */
+}
+
+.serviceImg {
+    /* position: relative; */
+    margin-top: 10px;
+    /* left: 45%; */
+    height: 45px;
+    width: 45px;
+}
+
+.cardImg {
+    height: 42%;
+    width: 50%;
+    border-radius: 16px;
+}
+
+.topic {
+    margin-top: 15px;
+    margin-bottom: 11px;
+    font-family: "Gupter", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.visit {
+    padding: 5px;
+    background: var(--bgcolor);
+    border: navajowhite;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: initial;
+}
+
+.visit:hover,
+#cv:hover,
+#about:hover,
+.icons:hover {
+    background-color: rgb(255, 175, 70);
+    color: black;
+    cursor: pointer;
+}
+
+.cards:hover {
+    background-image: linear-gradient(120deg, #939dad 0%, #284a5a 100%);
+    
+}
+
+.aboutProject {
+    color: rgb(255, 252, 224);
+    font-size: 0.8rem;
+    margin-top: 10px;
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+    text-wrap: wrap;
+}
+
+.rightIcons {
+    position: relative;
+    left: 25%;
+    margin-top: 51px;
+    border-radius: 40%;
+    padding: 3px;
+}
+
+.rightIcons:hover {
+    background-color: rgb(255, 126, 143);
+}
+
+.rightBlock i {
+    background-color: black;
+    color: white;
+    font-size: .7rem;
+    border-radius: 5px;
+    padding: 3px;
+    display: none;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width:845px) and (min-width:712px) {
+    .myImg {
+        right: 5px;
+
+    }
+
+    .content1 {
+        padding-left: 5px;
+        width: 67%;
+    }
+
+    .rightIcons {
+        left: 5%;
+    }
+}
+
+.intro {
+    font-size: 2rem;
+}
+
+@media screen and (max-width:712px) {
+    .cardImg {
+        height: 120px;
+        width: 170px;
+    }
+
+    .rightIcons {
+        left: 3%;
+    }
+
+    .leftBlock {
+        position: absolute;
+        width: 660%;
+        left: 17%;
+        height: 117%;
+        border-radius: 10px;
+        top: 117vh;
+        margin-top: 13px;
+    }
+
+    .projectHeading {
+        margin-top: 141vh;
+        /* color: wheat; */
+
+    }
+
+    .centerBlock {
+        height: 97vh;
+        width: 94vw;
+    }
+
+    .content1 {
+        padding-left: 10px;
+
+    }
+
+    .myImg {
+        right: 6px;
+    }
+
+    .intro {
+        font-size: 1.4rem;
+    }
+
+    .content2 {
+        font-size: .6rem;
+    }
+}
+
+
+@media screen and (max-width:402px) {
+
+
+    .content1 h2 {
+        font-size: 1.2rem;
+    }
+
+    .serviceNames {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .rightIcons {
+        left: 5%;
+    }
+
+    .rightBlock {
+        width: 7vw;
+    }
+
+    .myImg {
+        top: 43px;
+        height: 121px;
+        width: 121px;
+    }
+
+    .updateImgProp {
+        top: 4%;
+        right: 6px;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:359px) {
+    .myImg {
+        top: -200px;
+
+    }
+
+    .updateImgProp {
+        top: 4%;
+    }
+
+    .services {
+        width: 60%;
+        position: relative;
+        left: 21%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .cardImg {
+        height: 80px;
+        width: 136px;
+    }
+}
+
+@media screen and (min-height:660px) {
+    .leftBlock {
+        top: 96vh;
+    }
+
+    .services {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-height:800px) {
+
+    .rightBlock,
+    .leftBlock,
+    .centerBlock {
+        height: 700px;
+    }
+}
+
+@media screen and (min-height:550px) and (max-width:712px) {
+    .leftBlock {
+        height: 600px;
+    }
+
+    .projectHeading {
+        margin-top: 100vh;
+    }
+}
